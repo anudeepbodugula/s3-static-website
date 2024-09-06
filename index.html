@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anudeep Murali | DevOps Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #0066cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            animation: slideIn 1s ease-out;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 2.2em;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 10px;
+        }
+
+        .projects, .experience {
+            margin-bottom: 40px;
+        }
+
+        .project, .job {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .project:hover, .job:hover {
+            transform: scale(1.05);
+        }
+
+        @keyframes slideIn {
+            0% {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0066cc;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .btn {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0055a3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anudeep Murali</h1>
+        <p>DevOps Engineer | Cloud Infrastructure | Automation Enthusiast</p>
+    </header>
+
+    <div class="container">
+        <section class="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>AWS WordPress Migration</h3>
+                <p>Successfully migrated a high-traffic WordPress site to AWS, utilizing EC2, RDS, and CloudFront. The migration improved performance by 40% and reduced costs by 30%.</p>
+            </div>
+
+            <div class="project">
+                <h3>Kubernetes Cluster Setup</h3>
+                <p>Set up and managed a highly available Kubernetes cluster on AWS, integrating CI/CD pipelines for automated deployments using Jenkins and Helm.</p>
+            </div>
+
+            <div class="project">
+                <h3>Health Check Dashboard</h3>
+                <p>Developed a Python-based health check dashboard for monitoring services across AWS, integrated with Prometheus and Grafana for real-time alerts.</p>
+            </div>
+        </section>
+
+        <section class="experience">
+            <h2>Experience</h2>
+
+            <div class="job">
+                <h3>TechNova Solutions - DevOps Engineer</h3>
+                <p>Led the deployment automation for cloud infrastructure, optimizing CI/CD pipelines, and enhancing security practices across AWS environments.</p>
+            </div>
+
+            <div class="job">
+                <h3>CloudOps Inc. - Site Reliability Engineer</h3>
+                <p>Worked on improving system reliability by implementing Infrastructure as Code (IaC) using Terraform and Kubernetes to manage large-scale infrastructure.</p>
+            </div>
+
+            <div class="job">
+                <h3>DevNet Solutions - DevOps Specialist</h3>
+                <p>Automated infrastructure provisioning and deployment, ensuring efficient and scalable environments for clients in the telecom and finance sectors.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Connect with me: <a class="btn" href="mailto:anudeep@example.com">Email Me</a></p>
+    </footer>
+</body>
+</html>
